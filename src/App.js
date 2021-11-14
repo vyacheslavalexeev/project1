@@ -2,6 +2,8 @@ import React from "react";
 import './App.css';
 import TaskList from "./task-list/TaskList";
 import Controlbar from "./control-bar/Controlbar";
+import Button from "./parts/button/Button";
+import {ClicksCounter} from "./parts/button/ClicksCounter";
  export function App(p) {
      const tasks = [
          {id:1,
@@ -19,8 +21,10 @@ import Controlbar from "./control-bar/Controlbar";
      ]
   return (
     <div >
-        <Controlbar/>
-<TaskList tasks={tasks}/>
+        <ClicksCounter/>
+        {/*<Button/>*/}
+        {/*<Controlbar/>*/}
+        {/*<TaskList tasks={tasks}/>*/}
     </div>
   );
 }
