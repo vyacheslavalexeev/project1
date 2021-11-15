@@ -21,7 +21,9 @@ import {ClicksCounter} from "./parts/button/ClicksCounter";
      ]
   return (
     <div >
+        <ClicksCounter initValue={5}/>
         <ClicksCounter/>
+
         {/*<Button/>*/}
         {/*<Controlbar/>*/}
         {/*<TaskList tasks={tasks}/>*/}
